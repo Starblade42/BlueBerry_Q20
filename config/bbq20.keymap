@@ -263,7 +263,7 @@
         alt_layer {
 
             bindings = <        
-                		&none                                                                           	 &none
+                		&mkp LCLK                                                                           	 &mkp RCLK
 
     	         	&kp K_PREV			&kp K_VOL_DN	        &hm2 EP_TOG K_PP		&kp K_VOL_UP	&kp K_NEXT
 
@@ -281,12 +281,12 @@
 
             bindings = <      
 
-		&none													&none
+		&mkp LCLK													&mkp RCLK
  
     		&mkp LCLK			&mkp RCLK			&mkp MCLK				&mkp MB4				&mkp MB5  
 
-    &kp Q		&kp W     	&kp E    	&kp R	  	  	&kp T			&kp Y		&kp U	    	&kp I	 	 &kp O		&kp P
-    &kp A	     	&kp S   	&kp D      	&kp F	 		&kp G		     	&kp H	      	&kp J       	&kp K       	 &kp L		&kp BSPC
+    &kp Q		&kp UP     	&kp E    	&kp R	  	  	&kp T			&kp Y		&kp U	    	&kp I	 	 &kp O		&kp P
+    &kp LEFT	     	&kp DOWN   	&kp RIGHT      	&kp F	 		&kp G		     	&kp H	      	&kp J       	&kp K       	 &kp L		&kp BSPC
     &EMU	 	&kp Z     	&kp X     	&kp C    		&kp V	     		&kp B		&kp N        	&kp M       	 &kp DLLR	&kp ENTER
 	
     		&SHFT				 &hm2 EP_TOG N0			&kp SPACE				&EALT				&sk LCTRL
@@ -297,7 +297,7 @@
 
             bindings = <        
 
-		&none													&none
+		&mkp LCLK													&mkp RCLK
 
     		&bt0            	 &bt1                 &bt BT_CLR                &bt2             &bt3
 
