@@ -246,7 +246,7 @@
                               \      aA        |       0        |                    SPACE                  |          SYM          |         aA    /
                                 -------------------------------------------------------------------------------------------------------------------
         */
-                 		&none                                                                                	&none
+                 		&mkp LCLK                                                                                	&mkp RCLK
 
 		            &mtt  K_CMENU TAB		 &msk LGUI LG(H)	      &mkp LCLK			&mtt ESC K_BACK		 &mou RCLK MCLK
 
